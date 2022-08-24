@@ -6,5 +6,5 @@ RUN npm install
 RUN yarn add react-scripts
 COPY . .
 EXPOSE 3000
-CMD ["npm" "start"]
+CMD ["npm", "start"]
 ## run start
